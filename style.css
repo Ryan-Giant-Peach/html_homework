@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    justify-content: center;
+    background-color:dodgerblue;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    }
+
+body > main > hgroup {
+    text-align: left;
+    margin: auto;
+    width: 70%;
+}
+
+li {
+    list-style: none;
+}
+
+body > header > nav > ul {
+    border-radius: 50px;
+    border-color: white;
+}
+
+body > main {
+    text-align: center;
+}
+
+body > main > article {
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+body > main > form {
+    text-align: left;
+}
+
+body > footer > div {
+    padding: 16px;
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+}
